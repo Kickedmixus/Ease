@@ -1,11 +1,19 @@
-# Ease v1.0.2a
+# Ease v1.0.3a
 Simple python library for customizable in/out easing utilities
 
 ## Types of easing
 
-#### -linear (wip)
+#### -linear - x
 
-#### -sine (wip)
+#### -sine - sin(x*pi/2)
+
+#### -quad/quadratic - x^2
+
+#### -cube/cubic - x^3
+
+#### -quart/quartic - x^4
+
+#### -quint/quintic - x^4
 
 ## Main functions
 
