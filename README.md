@@ -1,4 +1,4 @@
-# Ease v1.0.1a
+# Ease v1.0.2a
 Simple python library for customizable in/out easing utilities
 
 ## Types of easing
