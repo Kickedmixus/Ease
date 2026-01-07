@@ -1,4 +1,4 @@
-# Ease v1.0.0a
+# Ease v1.0.1a
 Simple python library for customizable in/out easing utilities
 
 ## Types of easing
@@ -9,11 +9,11 @@ Simple python library for customizable in/out easing utilities
 
 ## Main functions
 
-#### - easeIn ( type , start , end , lenght )
+#### - easeIn ( type , start , end , length )
 
-#### - easeOut ( type , start , end , lenght )
+#### - easeOut ( type , start , end , length )
 
-#### - easeInOut ( type , start , end , lenght )
+#### - easeInOut ( type , start , end , length )
 
 ## Function inputs ( easeIn(), easeOut() , easeInOut() )
 
@@ -21,28 +21,28 @@ Simple python library for customizable in/out easing utilities
 
 ####    -start (start vaule)
 
-                    #
-                    #
-                  # #
-            # # # # #
-            ^
-            1
+            #
+            #
+          # #
+    # # # # # 
+    ^
+    1
 
 ####    -end (end vaule)
 
 
-                    #
-                    #
-                  # #
-            # # # # #
-                    ^
-                    4
+            #
+            #
+          # #
+    # # # # #
+            ^
+            4
 
-####    -lenght (amount of data vaules)
+####    -length (amount of data vaules)
 
 
-                    #
-                    #
-                  # #
-            # # # # #
-            [       ] 5
+            #
+            #
+          # #
+    # # # # #
+    [       ] 5
