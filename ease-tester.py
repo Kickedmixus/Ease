@@ -13,6 +13,8 @@ def test(easeMovement,easeType):
         graph = ease.easeOut(easeType,0,amount,amount)
     elif easeMovement == "easeInOut":
         graph = ease.easeInOut(easeType,0,amount,amount)
+    elif easeMovement == "easeOutIn":
+        graph = ease.easeInOut(easeType,0,amount,amount,True)
 
     print ("min "+str(min(graph))+" max "+str(max(graph))+" len "+str(len(graph)))
 
@@ -25,9 +27,10 @@ def test(easeMovement,easeType):
 
 amount = int(input("lenght of test >"))
 
-test("easeIn","sine")
-test("easeOut","sine")
-test("easeInOut","sine")
+test("easeIn","quint")
+test("easeOut","quint")
+test("easeInOut","quint")
+test("easeOutIn","quint")
 
 plt.show()
 
